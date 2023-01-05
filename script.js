@@ -36,6 +36,8 @@ function initWheel() {
 }
 
 function spinWheel(roll) {
+  const audio = document.querySelector('#peao')
+  audio.play()
   var $wheel = $('.roulette-wrapper .wheel'),
     order = [0, 11, 5, 10, 6, 9, 7, 8, 1, 14, 2, 13, 3, 12, 4]
 

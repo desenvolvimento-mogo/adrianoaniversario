@@ -10,7 +10,7 @@ body {
   width: 100%;
   margin: 0 auto;
   overflow: hidden;
-  margin-top: 90px;
+  margin-top: 20px;
 }
 
 .roulette-wrapper .selector {
@@ -73,9 +73,11 @@ body {
   box-sizing: border-box;
 }
 
-h1, h2 {
+h1,
+h2 {
   color: #fff;
-  margin: 0;
+  text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
+  text-align: center;
 }
 
 h1 {
